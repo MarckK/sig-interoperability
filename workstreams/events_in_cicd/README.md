@@ -8,16 +8,25 @@ The forming of this workstream was suggested on a [recent SIG Interoperability m
 Discuss all about what events should be used for in a CI/CD process
 
 ## Mission
-Standardize events to be used in a CD process
+Standardize events to be used in a CI/CD process
 
 ## What is an event?
-To be defined. Event vs. Message vs. Notification
-Proposal:
-* Things that happen/occur in a CD process.
-* Notifications that are sent out due to things that happen/occur in a CD process.
-* Message = Routable
-* Event has no recipient
-* Event is decoupled from consumers
+We currently stick with the [definition used by CloudEvents](https://github.com/cloudevents/spec/blob/v1.0/spec.md#terminology):
+An *event* is a data record expressing an *occurrence* and its context, where *occurrence* is the capture of a statement of fact during the operation of a software system.
+
+## Members
+Current members:
+* Ravi Lachhman, Harness
+* Andreas Grimmer, Dynatrace
+* Emil Bäckmark, Ericsson
+* Ramin Akhbari, eBay
+
+Membership to this workstream is open to public and self-declared.
+
+New members are advised to:
+* Join the [#events-in-cicd channel on CDF Slack](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) and introduce yourself.
+* Submit a PR to add yourself to the members list in this README.
+* Regularly join the workstream meetings.
 
 ## Communication Channels
 There is a [Slack channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) for this workstream.
@@ -25,5 +34,5 @@ There is a [Slack channel](https://cdeliveryfdn.slack.com/archives/C0151BTKEJX) 
 ## Meetings
 Events in CI/CD workstream meets every even week on Mondays at 16.30 UTC. (*See your timezone [here](https://time.is/1630_in_UTC)*).
 
-* Meeting agenda and minutes: [meetings.md](./meetings.md)
-* Register in advance for this meeting: https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT. After registering, you will receive a confirmation email containing information about joining the meeting.
+* Meeting agenda and minutes are kept [here](https://github.com/cdfoundation/sig-interoperability/blob/master/workstreams/events_in_cicd/meetings.md)
+* Register in advance for this meeting [here](https://zoom.us/meeting/register/tJMrcemvrzksGtSgbE3-44y5nBvCkKI6X2MT). After registering, you will receive a confirmation email containing information about joining the meeting.

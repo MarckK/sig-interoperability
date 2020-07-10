@@ -5,6 +5,8 @@
 - [Logistics](#logistics)
 - [Meeting Recordings](https://www.youtube.com/playlist?list=PL2KXbZ9-EY9QxICOnONBFPn_cYfJ8BsaG)
 - [Agenda and Notes](#agenda-and-notes)
+  - [2020-07-09 Meeting](#july-9-2020)
+  - [2020-06-25 Meeting](#june-25-2020)
   - [2020-06-11 Meeting](#june-11-2020)
   - [2020-05-28 Meeting](#may-28-2020)
   - [2020-05-14 Meeting](#may-14-2020)
@@ -16,6 +18,7 @@
   - [2020-02-20 Meeting](#february-20-2020)
   - [2020-02-06 Meeting](#february-6-2020)
   - [2020-01-23 Meeting](#january-23-2020)
+
 ## Logistics
 
 * Meeting notes on HackMD.io: https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL
@@ -29,6 +32,113 @@
 ## Agenda and Notes
 
 Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-interoperability/ry3TTB5DL) where everyone can add new topics to the agenda for upcoming meetings or take notes during the meetings. Please click edit button to edit the document.
+
+### July 9, 2020
+
+#### Participants
+  - Ramin Akhbari (eBay)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Emil Bäckmark (Ericsson)
+  - James Rawlings (CloudBees)
+  - Max Körbächer (Storm Reply)
+  - Kara de la Marck (CloudBees)
+  - Thanh Ha (Lumina Networks)
+  - Marky Jackson (OpsMX)
+  - Jeremy Stanley (Zuul community)
+  - Oleg Nenashev (CloudBees)
+  - Mark Waite (CloudBees)
+  - Tracy Miranda (CloudBees)
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - [SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.eqpoxxy8gmzz) in the repo, All
+    - FD: A [pull request](https://github.com/cdfoundation/sig-interoperability/pull/40) is opened, moving the roadmap from Google Docs to SIG repository on GitHub.
+    - FD: Few updates have been made to the roadmap while moving it to the repo such as adding the presentations that were made to the SIG.
+    - FD: In addition to the updates, the new work we started doing such as identifying Focus Areas and creating workstreams is also included in the document.
+    - FD: Contributors are also listed on the document.
+    - FD: PR will be kept open few more days to give people chance to review it and provide comments.
+    - FD: Once we finalize the work with the roadmap, we could ask CDF to help us to make this work visible via a blog post/article.
+    - MJ: I can help with that.
+  - SIG Governance, [workstream setup](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/workstream-governance.md), Kara, All
+    - KM: The governance document for the workstreams is [now available in the repo](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/workstream-governance.md).
+    - KM: People who are interested in working on a specific topic are encouraged to create a PR and socialize the idea by presenting it during upcoming SIG meetings to collaborate with others.
+    - MK: WG Robots could be a workstream.
+  - [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) Presentation, Oleg Nenashev, CloudBees
+
+#### Action Items
+  - ~~Fatih to move Roadmap to GitHub via a PR: https://github.com/cdfoundation/sig-interoperability/pull/40~~
+  - ~~Tracy to take SIG Roadmap document into read-only/comment-only mode~~
+  - ~~Kara to update workstream governance with the process for creation of new workstreams: https://github.com/cdfoundation/sig-interoperability/pull/39~~
+  - **In progress**: Fatih to talk to Jacque to update the invitation with HackMD link: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/201).
+  - **In progress**: Marky to check with Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF backlog](https://github.com/cdfoundation/foundation/issues/202).
+
+#### Meeting Recording
+  - \<addme\>
+
+### June 25, 2020
+
+#### Participants
+  - Kara de la Marck
+  - Marky Jackson (OpsMX)
+  - Fatih Degirmenci (Ericsson Software Technology)
+  - Ravi Lachhman (Harness)
+  - James Rawlings (CloudBees / Jenkins X)
+  - Emil Bäckmark (Ericsson)
+  - Andreas Grimmer (Dynatrace)
+  - Gareth Evans (Jenkins X)
+  - Venkata Shreyas Kabekkodu (Fidelity)
+
+#### Agenda and Notes
+  - Action Item Review, All
+  - Way forward with [SIG Roadmap](https://docs.google.com/document/d/1QSzcV-rl3XwkNh4_5a_0YCugF5gprtBR-xRlzuEJ-NA/edit#heading=h.eqpoxxy8gmzz), All
+    - EB: Added Argo Rollouts under Knowledge Transfer in CI/CD tools in the roadmap.
+    - EB: Added example CI and DevOps/Continuous Feedback activities into the roadmap and it is open for feedback.
+    - FD: The roadmap has been around and it may make senseto move the document to GitHub into SIG repository so any further updates and conversations on the roadmap could happen in the repository.
+    - No objection has been rasied by the participants of the meeting .
+  - SIG Governance, [workstream setup](https://github.com/cdfoundation/sig-interoperability/blob/master/docs/workstream-governance.md), Kara, All
+    - KM: First version of the workstream setup has been made available in the repo.
+    - RL: We self-organized and mimicking the SIG meeting setup.
+    - FD: The idea with the workstream setup is to help people to work on specific topics without hinderance or loss of focus due to broader list of topics discussed within the SIG.
+    - RL: We started very recently and we don't have much to say at the moment.
+    - EB: The workstream meeting notes are kept within [SIG repository](https://github.com/cdfoundation/sig-interoperability/tree/master/workstreams/events_in_cicd).
+    - KM: Sharing the findings, learnings, outcomes from the workstream with the broader SIG would be very valuable. Cadence is up to the workstreams.
+    - EB: The initial thought within the workstream was that we were aligned in the thinking of some fundamental aspects like "what is event".
+    - EB: We found out that there are differences in thinking so we are working on that.
+    - AG: The first meeting was about collecting material and we are at the starting point.
+    - KM: How people can come up with new workstream ideas?
+    - FD: Anyone should be able to propose new workstreams by simply creating an issue in the repo and adding a topic to the SIG meeting so the workstream idea can be publicized/socialized with the broader community.
+    - KM: I have an idea about a workstream on Tekton Catalog.
+    - JR: We want to have good interop story and good citizens while sharing our learnings.
+  - Topics for CDF Project Collaboration Working Summit, Fatih, All
+    - Potential topics are: Reusable Libraries (go-scm, etc), Events in CI/CD (Tekton, Keptn, Eiffel)
+    - Cross project demos? 
+    - MJ: Might be good to have discussions on some of the project interoperability work that is being done.
+    - Examples include: Jenkins + Spinnaker, Jenkins X and Tekton, etc
+    - Show work that is being done and use this work as examples of interoperability and sharing practices.
+    - JR: Great if we could develop specifications or open standards 
+    - FD: Question on date, as many could be on summer holidays.
+    - MJ: That is being considered, more info coming on mail list
+    - MJ: the format will be similar to unconference -- individuals can propose topics in slack in advance (with voting). The agenda for the day will be based on the advance voting.
+  - Upcoming Presentations, Kara
+    - [Schedule is updated](https://docs.google.com/document/d/1Owg_I52WEXzqF8g_lX6OTdwbHkH4Z2-7TBA7eCSVMqY/edit)
+    - KM: Lighthouse and Spinnaker presentations are scheduled for July 9 and July 23.
+    - EB: Argo Events and Argo Workflow are the other Argo projects which may be interesting to have presentations on.
+    - EB: Argo terms could be included in the vocabulary 
+
+#### Action Items
+  - Fatih to move Roadmap to GitHub via a PR
+  - Tracy to take SIG Roadmap document into read-only/comment-only mode
+  - Kara to update workstream governance with the process for creation of new workstreams
+  - **In progress**: Fatih to talk to Dan Lopez to update the invitation with HackMD link: [Issue created in CDF Foundation backlog](https://github.com/cdfoundation/foundation/issues/201).
+  - **In progress**: Fatih/Kara to check with Dan Lopez and Jacque the possibility of storing none-meeting recordings on Youtube: [Issue created in CDF Foundation backlog](https://github.com/cdfoundation/foundation/issues/202).
+  - ~~Everyone to review the roadmap and provide feedback as to whether it is ready to be added to GitHub.~~
+  - ~~Kara to start the document on SIG governance, esp workstreams.~~ 
+  - Chun to reach out to Brandon from Drone community for go-scm library
+  - ~~Tracy and Kara to invite Andrew Bayer, Christie Wilson, and James Rawlings to discuss go-scm~~
+  - ~~Tracy to reach out to Spinnaker folks - Kara invited representative from Spinnaker community~~
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=hjhttOywNIE
 
 ### June 11, 2020
 
@@ -100,8 +210,7 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Tracy to reach out to Spinnaker folks
 
 #### Meeting Recording
-  - \<addme\>
-
+  - https://www.youtube.com/watch?v=ZMfoGg2BM2E
 
 ### May 28, 2020
 
@@ -146,15 +255,15 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Interoperability Podcast
       - JS: Published - 101 downloads - [Podcast](https://cdeliveryfdn.buzzsprout.com/1008697/3778943-cdf-sig-interoperability-chair-cloudbees-puppet-discuss-interoperability)
       - JS: Followup podcasts - anyone interested to take part in the podcast, please reach out to Jacque
- 
- #### Meeting Recording
-  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 #### Action Items
   - Chun to reach out to Brandon from Drone community for go-scm library
   - Tracy to invite Andy Bayer, Christie Wilson, and James Rawlings to discuss go-scm
   - Andreas to reach out to Argo folks
   - Tracy to reach out to Spinnaker folks
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=Z-Ihwminsc0
 
 ### May 14, 2020
 
@@ -196,6 +305,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 #### Action Items
   - Kick of co-chair nominations on SIG Maillist, Fatih Degirmenci
   - Start the discussion around SIG Roadmap on Maillist
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=pgEqYfT4whg
 
 ### April 30, 2020
 
@@ -242,6 +354,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - [Flagger](https://flagger.app/) Presentation, Stefan Prodan, Weave Works
       - FD: Slides will be available in [CDF Presentations repository sig-interoperability folder](https://github.com/cdfoundation/presentations/tree/master/sig-interoperability).
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=CAU7-qbNZo0
+
 ### April 16, 2020
 
 #### Participants
@@ -270,7 +385,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
     - AG: In order to identify the interfaces, it is important to understand common tasks first - deployment, testing, release, and so on. This could help us to identify the interfaces.
     - Discussion on how to highlight, share, and reach to a shared vocabulary in CI/CD domain. Reaching out to projects, experts, bringing this to CDF TOC’s attention.
 
-
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=7LNYbQBrtvY
+  
 ### April 2, 2020
 
 #### Participants
@@ -305,6 +422,8 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
     - Eric part1: https://medium.com/relay-sh/whats-going-on-with-tekton-part-1-9c3e006d39fc , part 2: https://medium.com/relay-sh/whats-going-on-with-tekton-part-2-ab39176c9c45
   - Jenkins X Presentation, James Rawlings, CloudBees (See video)
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=8S98BUZQKRM
 
 ### March 19, 2020
 
@@ -339,9 +458,11 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - Zuul Presentation, Jeremy Stanley, OpenDev
     - JS: Slides: http://fungi.yuggoth.org/presentations/2020-cdf/slides.html
 
-
 - **Action Items**
   - Reach out to Spinnaker (Netflix/Armory) and Codefresh and invite them, Fatih Degirmenci
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=TLgcjYe_joM
 
 ### March 5, 2020
 
@@ -378,6 +499,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 - **Action Items**
   - Store Keptn presentation in cdf/presentations repository sig-interoperability folder, Andreas Grimmer, Dynatrace
   - DONE: Store Orange Gitlab Pipelines presentation in cdf/presentations repository sig-interoperability folder, David Blaisonneau, Orange
+
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=cREQjs5hDLY
 
 ### February 20, 2020
 
@@ -432,6 +556,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - DONE: Upload presentation to CDF presentations repo sig-interoperability folder on GitHub, Christie Wilson
   - DONE: Schedule a presentation from Jenkins X - presentation schedule is here, Tracy Miranda, Jeremy Harley
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=0RZikpCG-6k
+  
 ### February 6, 2020
 
 - **Participants**
@@ -474,6 +601,9 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
 - **Action Items**
   - N/A
 
+#### Meeting Recording
+  - https://www.youtube.com/watch?v=thr8-duWvt0
+  
 ### January 23, 2020
 
 - **Participants**
@@ -591,3 +721,6 @@ Meeting agenda and notes are kept on [HackMD.io](https://hackmd.io/@cdf-sig-inte
   - ~~Start nominations for co-chair, Fatih Degirmenci~~
   - ~~Add members listed in README.md as maintainers to sig-interoperability Github repository, Fatih Degirmenci~~
   - ~~Help us get in touch with ebay and CDF projects so we can invite them for presenting to SIG, Tracy Miranda~~
+
+#### Meeting Recording
+  - N/A
